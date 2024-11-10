@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nantakrit Techayod - A4 Page</title>
+    <style>
+        /* A4 page size */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .a4-page {
+            width: 210mm;
+            height: 297mm;
+            background-color: white;
+            padding: 20mm;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            color: #333;
+            box-sizing: border-box;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #2a2a2a;
+        }
+
+        .section {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .contact-info, .education, .skills, .activities, .about {
+            margin: 10px 0;
+        }
+
+        .skills .skill-level {
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 5px 0;
+        }
+
+        .skills .skill-level span {
+            display: block;
+            height: 12px;
+            border-radius: 5px;
+        }
+
+        .html { width: 45%; background-color: #4caf50; }
+        .css { width: 35%; background-color: #2196f3; }
+        .javascript { width: 30%; background-color: #ffeb3b; }
+        .python { width: 15%; background-color: #f44336; }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a4-page">
+        <h1>Nantakrit Techayod</h1>
+        <div class="section contact-info">
+            <h2>Contact</h2>
+            <p>Phone: 098-595-9493</p>
+            <p>Email: jynx1592@gmail.com</p>
+            <p>Location: Phayao, Thailand</p>
+        </div>
+
+        <!-- About Section Moved Here -->
+        <div class="section about">
+            <h2>About Me</h2>
+            <p>Name: Nantakrit Techayod</p>
+            <p>Nickname: Khen</p>
+            <p>Age: 20</p>
+            <p>Favorite: Listen to music</p>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <p>Currently studying for a Bachelor's degree in Information Technology, majoring in Computer Science at the University of Phayao.</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Teamwork</li>
+                <li>Responsibility</li>
+                <li>Resilience under pressure</li>
+                <li>Visionary</li>
+                <li>Creativity</li>
+            </ul>
+
+            <h3>Technologies and Languages</h3>
+            <div class="skill-level">
+                <span class="html">HTML - 45%</span>
+            </div>
+            <div class="skill-level">
+                <span class="css">CSS - 35%</span>
+            </div>
+            <div class="skill-level">
+                <span class="javascript">JavaScript - 30%</span>
+            </div>
+            <div class="skill-level">
+                <span class="python">Python - 15%</span>
+            </div>
+        </div>
+
+        <div class="section activities">
+            <h2>Activities</h2>
+            <p>Participated in HealthTech Project Competition</p>
+        </div>
+    </div>
+</body>
+</html>
